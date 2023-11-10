@@ -27,73 +27,83 @@
         .sem{
             font-weight: normal;
         }
+        #container{
+            overflow-x: auto;
+        }
     </style>
 </head>
 <body>
-    <table>
-        <thead>
-            <tr>
-                <th rowspan="2" colspan="2">Área</th>
-                <th rowspan="2" colspan="2">Disciplinas</th>
-                <th colspan="2">Notas</th>
-                <th rowspan="2">Média</th>
-            </tr>
-            <tr>
-                <th>Nota 1</th>
-                <th>Nota 2</th>
-            </tr>
-
-        </thead>
-        <tbody>
-            <tr>
-                <th rowspan="4" colspan="2">Exatas</th>
-                <th colspan="2" class="sem">Matematica</th>
-                <td>0.0</td>
-                <td>0.0</td>
-                <td colspan="2">0.0</td>
-            </tr>
-            <tr>
-                <th colspan="2" class="sem">Fisica</th>
-                <td>0.0</td>
-                <td>0.0</td>
-                <td colspan="2">0.0</td>
-            </tr>
-            <tr>
-                <th colspan="2" class="sem">Quimica</th>
-                <td>0.0</td>
-                <td>0.0</td>
-                <td colspan="2">0.0</td>
-            </tr>
-            <tr>
-                <th colspan="2" class="sem">Biologia</th>
-                <td>0.0</td>
-                <td>0.0</td>
-                <td colspan="2">0.0</td>
-            </tr>
-            <tr class="medias">
-                <th colspan="6">Medias de Exatas</th>
-                <td>0.0</td>
-            </tr>
-            <tr>
-                <th colspan="2" rowspan="2">Humanas</th>
-                <th colspan="2" class="sem">Historia</th>
-                <td>0.0</td>
-                <td>0.0</td>
-                <td>0.0</td>
-            </tr>
-            <tr>
-                <th colspan="2" class="sem">Geografia</th>
-                <td>0.0</td>
-                <td>0.0</td>
-                <td>0.0</td>
-            </tr>
-            <tr class="medias">
-                <th colspan="6">Media De humanas</th>
-                <td>0.0</td>
-            </tr>
-
-        </tbody>
+    <div id="container">
+        <table>
+            <colgroup>
+                <col>
+                <col>
+                <col>
+                <col>
+                <col>
+            </colgroup>
+            <thead>
+                <tr>
+                    <th rowspan="2" colspan="2">Área</th>
+                    <th rowspan="2" colspan="2">Disciplinas</th>
+                    <th colspan="2">Notas</th>
+                    <th rowspan="2">Média</th>
+                </tr>
+                <tr>
+                    <th>Nota 1</th>
+                    <th>Nota 2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th rowspan="4" colspan="2">Exatas</th>
+                    <th colspan="2" class="sem">Matematica</th>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td colspan="2">0.0</td>
+                </tr>
+                <tr>
+                    <th colspan="2" class="sem">Fisica</th>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td colspan="2">0.0</td>
+                </tr>
+                <tr>
+                    <th colspan="2" class="sem">Quimica</th>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td colspan="2">0.0</td>
+                </tr>
+                <tr>
+                    <th colspan="2" class="sem">Biologia</th>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td colspan="2">0.0</td>
+                </tr>
+                <tr class="medias">
+                    <th colspan="6">Medias de Exatas</th>
+                    <td>0.0</td>
+                </tr>
+                <tr>
+                    <th colspan="2" rowspan="2">Humanas</th>
+                    <th colspan="2" class="sem">Historia</th>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+                <tr>
+                    <th colspan="2" class="sem">Geografia</th>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+                <tr class="medias">
+                    <th colspan="6">Media De humanas</th>
+                    <td>0.0</td>
+                </tr>
+            </tbody>
         
-    </table>
+        </table>
+    </div>
 </body>
 </html>
